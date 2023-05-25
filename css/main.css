@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+
+}
+
+main {
+    background-color: #D5E1EF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 15px 10px #CBD7E5;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.card .info {
+    text-align: center;
+}
+
+.card .info p {
+    color: #777;
+}
